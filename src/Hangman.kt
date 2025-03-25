@@ -8,7 +8,7 @@ val guesses = arrayListOf<Char>()  // List to store the guesses (initially empty
 var remainingGuesses = 6  // Number of incorrect guesses allowed
 var mistakeCounter = 0  // Counter for the number of mistakes made
 
-fun main(args: Array<String>) {
+fun main() {
     setupGame()
 }
 
